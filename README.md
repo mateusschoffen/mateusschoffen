@@ -8,7 +8,7 @@ honor date Apr 2020 honor issuer TogetherVsVirus
 honor description Project Allyship Winner in #TogetherVsVirus Canada 🇨🇦
 https://togethervsvirus.ca/results 
 
-- Mentor in hackathons
+- :nerd_face: Mentor in hackathons
 
 :large_blue_diamond: My site: www.mateusschoffen.com
 
