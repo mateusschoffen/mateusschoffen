@@ -1,6 +1,18 @@
 ### Hey there 👋
 
-- 🔭 I’m currently working on EMBRAPII
+- :desktop_computer: I’m currently working on EMBRAPII as Project Manager - SmartVout Project
+
+- :1st_place_medal: Hackathon Winner 
+honor date Apr 2020 honor issuer TogetherVsVirus
+
+honor description Project Allyship Winner in #TogetherVsVirus Canada 🇨🇦
+https://togethervsvirus.ca/results 
+
+- Mentor in hackathons
+
+:large_blue_diamond: My site: www.mateusschoffen.com
+
+
 
 <div style="display: inline_block" ><br>
   <img align="center" alt="MS-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
