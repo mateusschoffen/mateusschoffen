@@ -5,7 +5,7 @@
 - :1st_place_medal: Hackathon Winner 
 honor date Apr 2020 honor issuer TogetherVsVirus
 
-honor description Project Allyship Winner in #TogetherVsVirus Canada 🇨🇦
+Honor description Project Allyship Winner in #TogetherVsVirus Canada 🇨🇦
 https://togethervsvirus.ca/results 
 
 - :nerd_face: Mentor in hackathons
