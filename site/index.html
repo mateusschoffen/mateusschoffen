@@ -168,7 +168,7 @@
         <div class="section-head">
           <div class="kicker">Selected work</div>
           <h2 id="work-title">Case studies</h2>
-          <p>This is production code from my own products, so the repositories are private. I'm happy to walk through the code in an interview.</p>
+          <p>My production work is in private repositories, and I'm happy to walk through that code in an interview. The guarded quote agent is public, so you can read and run it.</p>
         </div>
 
         <!-- Case 1 -->
@@ -210,6 +210,36 @@
           </div>
           <ul class="tags">
             <li>Claude API</li><li>Managed Agents</li><li>Tool use</li><li>Prompt design</li><li>PHP · Laravel 13</li><li>Filament 5</li><li>MySQL</li><li>Pest</li><li>Sentry</li>
+          </ul>
+        </article>
+
+        <!-- Open-source case -->
+        <article class="case">
+          <div class="case-top">
+            <h3>Guarded quote agent: open source, with evals</h3>
+            <span class="status">Public code · Nov 2026</span>
+          </div>
+          <p class="tldr">
+            An open, generic version of the pattern above that anyone can run and inspect. A Claude agent scopes and
+            quotes work, the server enforces every rule that involves money or identity, and an evaluation suite
+            measures how the model behaves under pressure.
+          </p>
+          <div class="case-grid">
+            <dl class="facts">
+              <div><dt>Code</dt><dd><a href="https://github.com/mateusschoffen/guarded-quote-agent" rel="noopener">github.com/mateusschoffen/guarded-quote-agent</a></dd></div>
+              <div><dt>Architecture</dt><dd>Messages API with a manual tool loop, so the eval harness can swap the model and inspect every tool call</dd></div>
+              <div><dt>Tests</dt><dd>44 offline tests in CI, no API key needed</dd></div>
+            </dl>
+            <ul class="points">
+              <li><strong>Evaluation suite:</strong> 12 scripted conversations, run several times each, graded deterministically: order created only when it should be, realistic hour estimates, correct site, no invented prices, replies in the client's language (EN/FR/PT), no prompt leak.</li>
+              <li><strong>Adversarial scenarios:</strong> discount pressure, fake "admin mode" injection, prompt-leak requests, another client's website, oversized projects.</li>
+              <li><strong>A confirmation the model can't fake:</strong> the order needs the client's own words, written after the quote. One confirmation creates at most one order.</li>
+              <li><strong>Guardrail-block metric:</strong> counts how often the server had to stop the model. That measures model discipline separately from system safety.</li>
+              <li><strong>Gradio demo</strong> with a live panel of every tool call, including the ones the server blocked.</li>
+            </ul>
+          </div>
+          <ul class="tags">
+            <li>Python</li><li>Claude API</li><li>Tool use</li><li>Evals</li><li>Guardrails</li><li>pytest</li><li>Gradio</li><li>GitHub Actions</li>
           </ul>
         </article>
 

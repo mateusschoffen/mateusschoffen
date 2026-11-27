@@ -12,6 +12,7 @@ backed by 14 years in IT, R&D project leadership and university teaching.
 #### 🤖 What I'm building
 
 - **AI change-request assistant**: a Claude agent (Managed Agents, three custom tools) that turns non-technical client requests into scoped, quoted and payable website changes. Prices come from deterministic code, never from the model. Identity is bound to the session, tool calls are idempotent, a client confirms before any side effect, and the flow is tested against a scripted model gateway. Shipped in v0.8.0.
+- **[guarded-quote-agent](https://github.com/mateusschoffen/guarded-quote-agent)** (open source): the same pattern, public. A Claude agent with server-side guardrails, 44 offline tests and an eval suite of 12 adversarial and multilingual scenarios with deterministic graders.
 - **AI-native engineering**: I ship Django, React/TypeScript and Laravel products with AI coding agents under team-grade guardrails: issue → PR, Conventional Commits, CI quality gates, Trivy and Dependabot, and code review.
 
 #### 🧭 Background
