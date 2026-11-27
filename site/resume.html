@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mateus Schoffen — Résumé</title>
+    <meta name="description" content="Résumé of Mateus Schoffen, Applied AI specialist in Montreal, QC." />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <style>
+      :root {
+        --text: #16171a;
+        --muted: #4b5058;
+        --rule: #d9d9d3;
+        --accent: #0f766e;
+        --bg: #ffffff;
+        --page: #f3f3ef;
+        color-scheme: light;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root:not([data-theme="light"]) {
+          --text: #eceef2;
+          --muted: #a6acb7;
+          --rule: #2a2f37;
+          --accent: #2dd4bf;
+          --bg: #15181d;
+          --page: #0d0f12;
+          color-scheme: dark;
+        }
+      }
+      :root[data-theme="dark"] {
+        --text: #eceef2;
+        --muted: #a6acb7;
+        --rule: #2a2f37;
+        --accent: #2dd4bf;
+        --bg: #15181d;
+        --page: #0d0f12;
+        color-scheme: dark;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        background: var(--page);
+        color: var(--text);
+        font: 15px/1.5 "Segoe UI", system-ui, -apple-system, Roboto, Arial, sans-serif;
+      }
+      .bar {
+        max-width: 860px;
+        margin: 0 auto;
+        padding: 16px;
+        display: flex;
+        justify-content: space-between;
+        gap: 12px;
+        font-size: 14px;
+      }
+      .bar a, .bar button {
+        color: var(--accent);
+        background: none;
+        border: 1px solid var(--rule);
+        border-radius: 8px;
+        padding: 6px 12px;
+        font: inherit;
+        cursor: pointer;
+        text-decoration: none;
+      }
+      .page {
+        max-width: 860px;
+        margin: 0 auto 40px;
+        background: var(--bg);
+        padding: 40px 24px;
+        border: 1px solid var(--rule);
+        border-radius: 12px;
+      }
+      @media (min-width: 720px) { .page { padding: 48px 56px; } }
+      h1 { font-size: 30px; margin: 0; letter-spacing: -0.02em; }
+      .title { color: var(--accent); font-weight: 600; margin: 2px 0 8px; }
+      .contact { color: var(--muted); font-size: 14px; display: flex; flex-wrap: wrap; gap: 4px 16px; padding: 0; margin: 0; list-style: none; }
+      .contact a { color: inherit; }
+      h2 {
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        color: var(--accent);
+        border-bottom: 1px solid var(--rule);
+        padding-bottom: 4px;
+        margin: 26px 0 10px;
+      }
+      p { margin: 0 0 8px; }
+      .job { margin-bottom: 14px; }
+      .job-head { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0 12px; }
+      .job-head b { font-size: 15.5px; }
+      .job-head span { color: var(--muted); font-size: 14px; white-space: nowrap; }
+      .org { color: var(--muted); font-style: italic; margin: 0 0 4px; }
+      ul.b { margin: 4px 0 0; padding-left: 18px; }
+      ul.b li { margin-bottom: 3px; }
+      .skills { display: grid; gap: 4px; }
+      .skills b { font-weight: 600; }
+      @media print {
+        @page { size: Letter; margin: 14mm 14mm; }
+        :root { --text: #000; --muted: #333; --rule: #bbb; --accent: #0b5f58; --bg: #fff; --page: #fff; }
+        body { font-size: 10.5pt; }
+        .bar { display: none; }
+        .page { border: 0; padding: 0; margin: 0; max-width: none; }
+        h2 { margin-top: 14px; }
+        .job { break-inside: avoid; margin-bottom: 9px; }
+        a { color: inherit; text-decoration: none; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bar">
+      <a href="./">← Portfolio</a>
+      <button type="button" onclick="window.print()">Save as PDF</button>
+    </div>
+
+    <main class="page">
+      <header>
+        <h1>Mateus Schoffen</h1>
+        <p class="title">Applied AI Specialist · LLM Agents · AI Delivery</p>
+        <ul class="contact">
+          <li>Montreal, QC, Canada</li>
+          <li><a href="mailto:mateus.schoffen@gmail.com">mateus.schoffen@gmail.com</a></li>
+          <li><a href="https://www.linkedin.com/in/mateus-schoffen">linkedin.com/in/mateus-schoffen</a></li>
+          <li><a href="https://github.com/mateusschoffen">github.com/mateusschoffen</a></li>
+        </ul>
+      </header>
+
+      <h2>Summary</h2>
+      <p>
+        Applied AI specialist with an MSc in Computational Modeling and 14+ years in technology across IT support,
+        Python development, R&amp;D project management and university teaching. I design and ship LLM agents with tool
+        use and production guardrails, and I build software with AI coding agents under CI quality gates. I've led cross-functional
+        R&amp;D teams with Scrum on projects of up to R$1.7M, and I teach computer science at university level.
+      </p>
+
+      <h2>Selected AI work</h2>
+      <div class="job">
+        <div class="job-head"><b>AI change-request assistant, BooPixel client portal</b><span>2026</span></div>
+        <ul class="b">
+          <li>Designed and shipped a Claude agent (Managed Agents, three custom tools) that turns non-technical client requests into scoped, quoted and payable change requests.</li>
+          <li>Kept business-critical logic out of the model: the agent estimates hours, and a deterministic function sets price and delivery date. Client identity comes from the session, never from tool input.</li>
+          <li>Made tool calls idempotent (keyed by tool-use ID, under a lock and a DB transaction). Required explicit client confirmation before side effects. Added a spend cap per session, hourly rate limits and an audit trail.</li>
+          <li>Covered the conversation flow with deterministic tests through a scripted model gateway. Released in v0.8.0 behind a feature flag. Stack: Laravel 13, Filament 5, MySQL, Pest.</li>
+        </ul>
+      </div>
+      <div class="job">
+        <div class="job-head"><b>AI-native engineering workflow</b><span>2026</span></div>
+        <ul class="b">
+          <li>Build products with AI coding agents (Claude Code) under team-grade guardrails: issue → branch → pull request, Conventional Commits, CI quality gates (ruff, mypy, pytest, Vitest, Pest), Trivy and Dependabot, and AI-assisted code review on pull requests.</li>
+          <li>Products: Claimwork (Django, expense reconciliation for FedDev Ontario funding recipients), Dimensiona (React + TypeScript equipment-sizing simulator) and the BooPixel back office (Laravel).</li>
+        </ul>
+      </div>
+
+      <h2>Experience</h2>
+      <div class="job">
+        <div class="job-head"><b>Founder</b><span>Jan 2019 – Present</span></div>
+        <p class="org">BooPixel, web agency and website platform, Brazil (remote)</p>
+        <ul class="b">
+          <li>Built the client-portal AI agent and the Laravel back office that runs clients, sites and billing, using AI coding agents with CI quality gates and code review.</li>
+          <li>Ran SEO, paid ads (Google, Meta) and data-driven lead generation and retention for clients.</li>
+        </ul>
+      </div>
+      <div class="job">
+        <div class="job-head"><b>University Professor</b><span>Jun 2024 – Present</span></div>
+        <p class="org">Centro Educacional Unintese, Montreal, QC</p>
+        <ul class="b">
+          <li>Teach Analysis of Algorithms, Data Structures and Programming Paradigms, and write the course material.</li>
+        </ul>
+      </div>
+      <div class="job">
+        <div class="job-head"><b>Project Manager &amp; Scrum Master</b><span>Nov 2021 – May 2024</span></div>
+        <p class="org">iTec/FURG, EMBRAPII unit for Robotic Systems and Automation, Rio Grande, Brazil</p>
+        <ul class="b">
+          <li>Led cross-functional R&amp;D teams on industry innovation projects worth up to R$1.7M.</li>
+          <li>Delivered with Scrum on 6 to 22-month timelines, and worked with BI analysts to improve internal system performance.</li>
+        </ul>
+      </div>
+      <div class="job">
+        <div class="job-head"><b>IT Support Technician</b><span>Oct 2023 – May 2024</span></div>
+        <p class="org">ILSC Education Group, Montreal, QC</p>
+        <ul class="b">
+          <li>Resolved hardware, software and network issues across departments, and improved system performance through preventive maintenance.</li>
+        </ul>
+      </div>
+      <div class="job">
+        <div class="job-head"><b>Python Developer (Junior)</b><span>Mar 2021 – Oct 2021</span></div>
+        <p class="org">NL Informática, Brazil</p>
+        <ul class="b">
+          <li>Improved ERP data accuracy by 20% and cut bug response time by 40%. Wrote unit tests and technical documentation.</li>
+        </ul>
+      </div>
+      <div class="job">
+        <div class="job-head"><b>Tutor, Data Science Specialization</b><span>2020 – 2021</span></div>
+        <p class="org">FURG, Center for Computational Sciences (C3), Brazil</p>
+      </div>
+      <div class="job">
+        <div class="job-head"><b>IT Support Coordinator</b><span>Apr 2016 – Aug 2019</span></div>
+        <p class="org">Guarani das Missões City Hall, Brazil</p>
+        <ul class="b">
+          <li>Managed municipal IT for schools, health centres and government buildings: system rollouts, infrastructure and the team.</li>
+        </ul>
+      </div>
+
+      <h2>Skills</h2>
+      <div class="skills">
+        <div><b>AI / ML:</b> LLM agents, tool use / function calling, prompt design, guardrails, Claude API, AI coding agents, scikit-learn, pandas, deep learning for computer vision</div>
+        <div><b>Engineering:</b> Python, Django, PHP / Laravel, TypeScript / React, SQL / MySQL, REST APIs, Docker, GitHub Actions, AWS Lambda (SAM), Git</div>
+        <div><b>Delivery:</b> Scrum, agile project management, Jira, stakeholder management, Six Sigma White Belt</div>
+        <div><b>Languages:</b> Portuguese (native), English (professional), Spanish (limited), French (basic, learning)</div>
+      </div>
+
+      <h2>Education &amp; certifications</h2>
+      <div class="skills">
+        <div><b>MSc, Computational Modeling</b>, Universidade Federal do Rio Grande (FURG), 2019 – 2022</div>
+        <div><b>BSc, Information Systems</b>, Universidade Regional Integrada (URI), 2011 – 2017</div>
+        <div><b>AEC, Digital Marketing Specialist</b>, Greystone College, Montreal, 2023 – 2024</div>
+        <div>NVIDIA DLI, Fundamentals of Deep Learning for Computer Vision · CertiProf Scrum Foundation Professional · Six Sigma White Belt</div>
+      </div>
+
+      <h2>Awards</h2>
+      <div class="skills">
+        <div>Hackathon winner, #TogetherVsVirus Canada (Allyship, 2020) · Mentor at six hackathons · Community Recognition, Greystone College</div>
+      </div>
+    </main>
+    <script>
+      try {
+        var t = localStorage.getItem("theme");
+        if (t === "light" || t === "dark") document.documentElement.dataset.theme = t;
+      } catch (e) {}
+    </script>
+  </body>
+</html>
