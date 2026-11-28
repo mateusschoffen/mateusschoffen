@@ -3,7 +3,7 @@
 **Applied AI specialist in Montreal.** I build LLM agents and AI automations that run real business workflows,
 backed by 14 years in IT, R&D project leadership and university teaching.
 
-🌐 **Portfolio:** [mateusschoffen.github.io/mateusschoffen](https://mateusschoffen.github.io/mateusschoffen/) · 📄 [Résumé](https://mateusschoffen.github.io/mateusschoffen/resume.html) · 💼 [LinkedIn](https://www.linkedin.com/in/mateus-schoffen) · ✉️ [mateus.schoffen@gmail.com](mailto:mateus.schoffen@gmail.com)
+🌐 **Portfolio:** [mateusschoffen.github.io](https://mateusschoffen.github.io/) · 📄 [Résumé](https://mateusschoffen.github.io/resume.html) · 💼 [LinkedIn](https://www.linkedin.com/in/mateus-schoffen) · ✉️ [mateus.schoffen@gmail.com](mailto:mateus.schoffen@gmail.com)
 
 **Open to:** AI Solutions / Applied AI Engineer · AI Implementation & Automation · Technical Program Manager (AI) · AI Trainer & LLM Evaluation. Montreal or remote.
 
@@ -17,10 +17,11 @@ backed by 14 years in IT, R&D project leadership and university teaching.
 
 #### 🧭 Background
 
-- 🎓 MSc in Computational Modeling (FURG) · BSc in Information Systems (URI) · NVIDIA DLI, Deep Learning for Computer Vision
+- 🎓 MSc in Computational Modeling (FURG): dissertation on **machine learning with PCA on EEG brain-activity data**, comparing 8 algorithms on 30k recordings · BSc in Information Systems (URI) · NVIDIA DLI, Deep Learning for CV and CUDA
+- 🔬 Research fellow at FURG: "Text of Things", an industry research project with an oil and gas multinational (Python, Flask, Docker), and a public COVID-19 data platform
 - 📋 Project Manager & Scrum Master for R&D projects of up to R$1.7M at the EMBRAPII Robotics & Automation unit (iTec/FURG)
 - 👨‍🏫 University professor (algorithms, data structures) and speaker on practical AI
-- 🏆 Winner of #TogetherVsVirus Canada 2020 · mentor at six hackathons
+- 🏆 Winner of #TogetherVsVirus Canada 2020 · mentor at 10+ hackathons
 - 🚀 Founder of BooPixel, a web agency and website platform
 
 #### 🛠️ Toolbox
@@ -45,4 +46,4 @@ backed by 14 years in IT, R&D project leadership and university teaching.
   <img alt="Contribution snake" src="https://raw.githubusercontent.com/mateusschoffen/mateusschoffen/output/github-snake.svg" />
 </picture>
 
-<sub>This repo also hosts my portfolio site; its source is in [`site/`](site/).</sub>
+<sub>Portfolio source: [mateusschoffen.github.io](https://github.com/mateusschoffen/mateusschoffen.github.io)</sub>
