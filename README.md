@@ -1,3 +1,5 @@
+<a href="https://mateusschoffen.github.io/"><img src="assets/banner.png" alt="Mateus Schoffen: Applied AI, from signal to decision" width="100%" /></a>
+
 ### Hi, I'm Mateus 👋
 
 **Applied AI specialist in Montreal.** I build LLM agents and AI automations that run real business workflows,
