@@ -21,7 +21,7 @@ backed by 14 years in IT, R&D project leadership and university teaching.
 - 🔬 Worked on a public COVID-19 data platform for Rio Grande do Sul (FURG with Rio Grande City Hall)
 - 📋 Project Manager & Scrum Master for R&D projects of up to R$1.7M at the EMBRAPII Robotics & Automation unit (iTec/FURG)
 - 👨‍🏫 University professor (algorithms, data structures) and speaker on practical AI
-- 🏆 Winner of #TogetherVsVirus Canada 2020 · mentor at six hackathons
+- 🏆 Winner of #TogetherVsVirus Canada 2020 · mentor at 10 hackathons
 - 🚀 Founder of BooPixel, a web agency and website platform
 
 #### 🛠️ Toolbox
