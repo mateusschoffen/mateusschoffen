@@ -1,4 +1,4 @@
-<a href="https://mateusschoffen.github.io/"><img src="assets/banner.png" alt="Mateus Schoffen: Applied AI, from signal to decision" width="100%" /></a>
+<a href="https://mateusschoffen.github.io/"><img src="assets/banner.png" alt="Mateus Schoffen: Technology that works for people" width="100%" /></a>
 
 ### Hi, I'm Mateus 👋
 
